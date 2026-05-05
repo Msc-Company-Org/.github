@@ -31,6 +31,7 @@ A **MSC Consultoria** consolida produtos digitais, agentes de IA, automações e
 | [`msc-prometheus`](https://github.com/Msc-Consultoriarj-org/msc-prometheus) | Monorepo Prometheus | Ativo |
 | [`msc-sistemas`](https://github.com/Msc-Consultoriarj-org/msc-sistemas) | Sistemas e apps MSC | Ativo |
 | [`Baterias-RJ`](https://github.com/Msc-Consultoriarj-org/Baterias-RJ) | MVP SEO/ADS para baterias automotivas | Ativo |
+| [`knowledge-base`](https://github.com/Msc-Consultoriarj-org/knowledge-base) | Vault Obsidian privado da MSC e futura wiki interna | Ativo |
 
 ## Plataformas
 
