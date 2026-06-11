@@ -1,43 +1,54 @@
 <div align="center">
 
-# MSC Consultoria
+<img src="assets/msc-company-banner.webp" alt="MSC Company" width="720" />
+
+# MSC Company
+
+**Holding de tecnologia, educação e produtos digitais — Rio de Janeiro 🇧🇷**
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![React 19](https://img.shields.io/badge/React_19-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Tailwind 4](https://img.shields.io/badge/Tailwind_4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![AI Agents](https://img.shields.io/badge/AI%20Agents-111827?style=for-the-badge&logo=openai&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 
-**Gestão, tecnologia, automação e IA aplicada para operação pública e privada.**
-
-[Site](https://msccompany-site.vercel.app) · [Hugging Face](https://huggingface.co/MSC-Company)
+[Site](https://msc-website.vercel.app) · [Hugging Face](https://huggingface.co/MSC-Company) · [Fundador](https://github.com/Finish-Him)
 
 </div>
 
 ---
 
-## Foco
+## Quem somos
 
-A **MSC Consultoria** consolida produtos digitais, agentes de IA, automações e plataformas web com foco em resultado operacional, governança e crescimento.
+A **MSC Company** consolida marcas de educação, IA aplicada, alimentação e mídia sob uma única estrutura: infraestrutura, conhecimento e inteligência artificial compartilhados, com cada marca operando de forma autônoma.
+
+## Marcas
+
+| Marca | O que é | Status |
+|---|---|---|
+| 🎓 **MSC Academy** | Plataforma educacional com tutores de IA (Arquimedes, Artemísia) para concursos e OAB | 🟢 Em produção |
+| 🧪 **MSC Labs** | Laboratório de IA — developer console, fine-tuning e agentes | 🟡 MVP |
+| 🍧 **Recanto do Açaí** | Delivery e eventos (Recanto de Estações) — Guadalupe, RJ | 🔄 Relançamento em preparação |
+| ⚽ **Sporting Vila** | Mídia esportiva (Sporting TV) | 🏗️ Em estruturação |
+| 🏦 **G&M Bank** | Fintech | 💡 Conceito |
+| 💼 **MSC Consultoria** | Serviços B2B de tecnologia e gestão (ex.: DETRAN-RJ) | 🟢 Ativa |
 
 ## Repositórios principais
 
-| Projeto | Descrição | Status |
-|---|---|---|
-| [`msccompany-site`](https://github.com/Msc-Consultoriarj-org/msccompany-site) | Site institucional da MSC Consultoria | Produção |
-| [`msc`](https://github.com/Msc-Consultoriarj-org/msc) | Workspace consolidado: agentes, monorepo, control center e marketing agents | Ativo |
-| [`msc-control-center`](https://github.com/Msc-Consultoriarj-org/msc-control-center) | Painel operacional para GitHub, HF Spaces, serviços e automações | Dev |
-| [`msc-academy`](https://github.com/Msc-Consultoriarj-org/msc-academy) | Plataforma de aprendizado corporativo | Ativo |
-| [`msc-arquimedes`](https://github.com/Msc-Consultoriarj-org/msc-arquimedes) | Monorepo Arquimedes | Ativo |
-| [`msc-prometheus`](https://github.com/Msc-Consultoriarj-org/msc-prometheus) | Monorepo Prometheus | Ativo |
-| [`msc-sistemas`](https://github.com/Msc-Consultoriarj-org/msc-sistemas) | Sistemas e apps MSC | Ativo |
-| [`Baterias-RJ`](https://github.com/Msc-Consultoriarj-org/Baterias-RJ) | MVP SEO/ADS para baterias automotivas | Ativo |
-| [`knowledge-base`](https://github.com/Msc-Consultoriarj-org/knowledge-base) | Vault Obsidian privado da MSC e futura wiki interna | Ativo |
+| Repositório | Descrição |
+|---|---|
+| [`Academy`](https://github.com/Msc-Company-Org/Academy) | Plataforma MSC Academy — Next.js + tRPC + TiDB |
+| [`msc-platform`](https://github.com/Msc-Company-Org/msc-platform) | Monorepo institucional — site, blog, portfólio e design system |
+| [`msc-labs`](https://github.com/Msc-Company-Org/msc-labs) | Developer console e orquestração de modelos |
+| [`recanto-eventos`](https://github.com/Msc-Company-Org/recanto-eventos) | Site e funil comercial do Recanto de Estações |
+| [`harness-msc`](https://github.com/Msc-Company-Org/harness-msc) | Orquestrador de agentes de IA do ecossistema |
 
 ## Plataformas
 
-- **GitHub:** código, governança e CI.
-- **Vercel:** sites e frontends comerciais.
-- **Hugging Face:** demos privadas de IA em [`MSC-Company/msc-ai-lab`](https://huggingface.co/spaces/MSC-Company/msc-ai-lab).
+- **GitHub** — código, governança e CI
+- **Vercel** — sites e frontends em produção
+- **Hugging Face** — modelos, datasets e demos em [`MSC-Company`](https://huggingface.co/MSC-Company)
 
 ## Convenções
 
@@ -45,11 +56,11 @@ A **MSC Consultoria** consolida produtos digitais, agentes de IA, automações e
 |---|---|
 | Branch principal | `main` |
 | Commits | Conventional Commits |
-| Projetos privados | Dados, clientes, automações internas |
-| Projetos públicos | Perfil, demos sem dados sensíveis, open source |
+| Stack web | React 19 · TypeScript · Tailwind 4 · tRPC · Drizzle |
+| Privado vs. público | Dados e operações internas privados; demos e perfil públicos |
 
 ---
 
 <div align="center">
-  <sub>Rio de Janeiro, Brasil 🇧🇷</sub>
+  <sub><b>Kaizen</b> — melhoria contínua, um commit de cada vez · Rio de Janeiro, Brasil</sub>
 </div>
