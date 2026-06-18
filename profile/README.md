@@ -4,16 +4,15 @@
 
 # MSC Company
 
-**Holding de tecnologia, educação e produtos digitais — Rio de Janeiro 🇧🇷**
+**Inteligência artificial aplicada, educação e produtos digitais — Rio de Janeiro 🇧🇷**
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![React 19](https://img.shields.io/badge/React_19-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Tailwind 4](https://img.shields.io/badge/Tailwind_4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 
-[Site](https://msc-website.vercel.app) · [Hugging Face](https://huggingface.co/MSC-Company) · [Fundador](https://github.com/Finish-Him)
+[Hugging Face](https://huggingface.co/MSC-Company) · [Fundador](https://github.com/Finish-Him)
 
 </div>
 
@@ -21,43 +20,40 @@
 
 ## Quem somos
 
-A **MSC Company** consolida marcas de educação, IA aplicada, alimentação e mídia sob uma única estrutura: infraestrutura, conhecimento e inteligência artificial compartilhados, com cada marca operando de forma autônoma.
+A **MSC Company** constrói **IA aplicada que resolve problema real**: agentes de atendimento, RAG sob medida, automação e plataformas educacionais com tutores de IA. Uma estrutura, várias marcas — infraestrutura, conhecimento e inteligência artificial compartilhados, cada marca operando de forma autônoma.
+
+## O que fazemos com IA
+
+- 🤖 **Agentes de IA em produção** — atendimento, qualificação e suporte 24/7, com roteamento multi-modelo e fallback.
+- 🔎 **RAG sob medida** — busca híbrida (vetor + BM25), reranking e avaliação com *golden sets* em português.
+- 🎓 **Educação com IA** — tutores inteligentes para concursos e idiomas.
+- ⚙️ **Engenharia de IA** — observabilidade, controle de custo e a infraestrutura que mantém tudo de pé.
 
 ## Marcas
 
 | Marca | O que é | Status |
 |---|---|---|
-| 🎓 **MSC Academy** | Plataforma educacional com tutores de IA (Arquimedes, Artemísia) para concursos e OAB | 🟢 Em produção |
-| 🧪 **MSC Labs** | Laboratório de IA — developer console, fine-tuning e agentes | 🟡 MVP |
-| 🍧 **Recanto do Açaí** | Delivery e eventos (Recanto de Estações) — Guadalupe, RJ | 🔄 Relançamento em preparação |
-| ⚽ **Sporting Vila** | Mídia esportiva (Sporting TV) | 🏗️ Em estruturação |
-| 🏦 **G&M Bank** | Fintech | 💡 Conceito |
-| 💼 **MSC Consultoria** | Serviços B2B de tecnologia e gestão (ex.: DETRAN-RJ) | 🟢 Ativa |
+| 💼 **MSC Consultoria** | IA aplicada e tecnologia B2B (ex.: setor público) | 🟢 Ativa |
+| 🎓 **MSC Academy** | Plataforma educacional com tutores de IA para concursos e OAB | 🟢 Em produção |
+| 🧪 **MSC Labs** | Laboratório de IA — agentes, fine-tuning e ferramentas | 🟡 MVP |
+| 🍧 **Recanto do Açaí** | Delivery e eventos — Guadalupe, RJ | 🔄 Relançamento |
 
-## Repositórios principais
+## Repositórios públicos
 
 | Repositório | Descrição |
 |---|---|
-| [`Academy`](https://github.com/Msc-Company-Org/Academy) | Plataforma MSC Academy — Next.js + tRPC + TiDB |
-| [`msc-platform`](https://github.com/Msc-Company-Org/msc-platform) | Monorepo institucional — site, blog, portfólio e design system |
-| [`msc-labs`](https://github.com/Msc-Company-Org/msc-labs) | Developer console e orquestração de modelos |
-| [`recanto-eventos`](https://github.com/Msc-Company-Org/recanto-eventos) | Site e funil comercial do Recanto de Estações |
-| [`harness-msc`](https://github.com/Msc-Company-Org/harness-msc) | Orquestrador de agentes de IA do ecossistema |
+| [`llm-router`](https://github.com/Msc-Company-Org/llm-router) | Roteador multi-modelo em Python: fallback, budget e telemetria |
+| [`msc-operating-system`](https://github.com/Msc-Company-Org/msc-operating-system) | Constituição, padrões e referência técnica do ecossistema |
+| [`msc-brand-system`](https://github.com/Msc-Company-Org/msc-brand-system) | Design system e identidade visual reutilizável |
+| [`msc-landing-funnel`](https://github.com/Msc-Company-Org/msc-landing-funnel) | Template de landing page + funil comercial com analytics |
+
+> 📘 Guia aberto de **[IA em Produção](https://github.com/Finish-Him/ia-em-producao)** — padrões reais de agentes, RAG e LLMs, em português.
 
 ## Plataformas
 
 - **GitHub** — código, governança e CI
 - **Vercel** — sites e frontends em produção
 - **Hugging Face** — modelos, datasets e demos em [`MSC-Company`](https://huggingface.co/MSC-Company)
-
-## Convenções
-
-| Item | Padrão |
-|---|---|
-| Branch principal | `main` |
-| Commits | Conventional Commits |
-| Stack web | React 19 · TypeScript · Tailwind 4 · tRPC · Drizzle |
-| Privado vs. público | Dados e operações internas privados; demos e perfil públicos |
 
 ---
 
