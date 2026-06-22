@@ -8,7 +8,7 @@
 fine-tuned open-source model that beats a generic frontier API *on your specific task*,
 at a fraction of the inference cost. You own the weights.
 
-[🌐 Website](https://msc-labs-ai.vercel.app) · [📅 Book a free model audit](https://msc-labs-ai.vercel.app/assessment) · [🤗 Hugging Face](https://huggingface.co/MSC-Company)
+[🌐 Website](https://labs.msccompany.com.br) · [📅 Book a free model audit](https://labs.msccompany.com.br/assessment) · [🤗 Hugging Face](https://huggingface.co/MSC-Company)
 
 </div>
 
@@ -51,7 +51,7 @@ Open, reproducible demos of small fine-tuned models out-performing frontier APIs
 
 <div align="center">
 
-**Is fine-tuning worth it for your task?** → [Book a free 30-min model audit](https://msc-labs-ai.vercel.app/assessment)
+**Is fine-tuning worth it for your task?** → [Book a free 30-min model audit](https://labs.msccompany.com.br/assessment)
 
 <sub>MSC Labs · custom LLM fine-tuning · made by the MSC Company team</sub>
 
