@@ -1,0 +1,71 @@
+# CODEOWNERS para MSC-Company-Org
+# Convenção: cada subcategoria tem 1+ owners para auto-assignment de PRs
+# Atualizar quando times mudarem.
+#
+# Formato: pattern @owner1 @owner2
+# Ver https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default fallback (repositórios sem owner específico)
+*                          @moises-costa-rj
+
+# === Subcategorias (auto-assignment por área) ===
+
+# MCPs (Model Context Protocol)
+/mcps/                      @moises-costa-rj
+
+# Marketing & landing pages
+/marketing/                 @moises-costa-rj
+
+# IA (LLM, RAG, agentes)
+/ai/                        @moises-costa-rj
+
+# Educação MSC Academy
+/academy/                   @moises-costa-rj
+
+# Operação interna (gestão, fluxo, hub)
+/operation/                 @moises-costa-rj
+
+# Produtos externos (recanto-acai, agenda-barber, etc.)
+/products/                  @moises-costa-rj
+
+# Templates reutilizáveis
+/templates/                 @moises-costa-rj
+
+# Knowledge bases & vaults
+/knowledge/                 @moises-costa-rj
+
+# Repos legacy/archived (review extra)
+/legacy/                    @moises-costa-rj
+
+# === Críticos (review extra) ===
+
+# MCPs core (compartilhado por todos)
+/mcps/msc-mcp-core/         @moises-costa-rj
+
+# Auth/SSO
+/mcps/msc-company-mcp/     @moises-costa-rj
+
+# Production stacks com clientes externos
+/products/recanto-acai/     @moises-costa-rj
+/products/agenda-barber-salao/  @moises-costa-rj
+
+# Knowledge (Alexandria + ADRs)
+/knowledge/Alexandria/ADRs/  @moises-costa-rj
+
+# === Configuração e tooling ===
+
+# Workflows de CI
+/.github/workflows/        @moises-costa-rj
+
+# Configs compartilhados
+/.eslintrc.cjs              @moises-costa-rj
+/.prettierrc.json           @moises-costa-rj
+/tsconfig.json              @moises-costa-rj
+/pnpm-workspace.yaml        @moises-costa-rj
+/turbo.json                 @moises-costa-rj
+
+# === Infra ===
+
+# Docker/compose
+/docker-compose*.yml       @moises-costa-rj
+/Dockerfile                 @moises-costa-rj
