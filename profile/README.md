@@ -1,58 +1,64 @@
 <div align="center">
 
-# MSC Labs
+# MSC Company
 
-### Stop renting intelligence. Own a model that beats GPT-4 on your task.
+### Applied AI products, custom model engineering, and measurable growth systems.
 
-**Done-for-you custom model training** — we turn your data into a production-ready,
-fine-tuned open-source model that beats a generic frontier API *on your specific task*,
-at a fraction of the inference cost. You own the weights.
+We build focused AI products and production workflows for education,
+commerce, operations, and customer acquisition.
 
-[🌐 Website](https://labs.msccompany.com.br) · [📅 Book a free model audit](https://labs.msccompany.com.br/assessment) · [🤗 Hugging Face](https://huggingface.co/MSC-Company)
+[Company](https://msccompany.com.br) ·
+[MSC Labs](https://labs.msccompany.com.br) ·
+[Free model audit](https://labs.msccompany.com.br/assessment) ·
+[Hugging Face](https://huggingface.co/Finish-him)
 
 </div>
 
 ---
 
-## What we ship
+## What we do
 
-Data engineering → **QLoRA/LoRA fine-tuning** → eval harness vs. your baseline → deployment
-(API · Docker · vLLM · on-prem). One team, end to end. Eval-first, no vibes.
+- **Custom model engineering** — dataset preparation, SFT/LoRA, evaluation, deployment, and handoff.
+- **Applied AI products** — software that connects models to real operational workflows.
+- **Revenue systems** — durable lead capture, attribution, checkout, and server-side conversion measurement.
+- **Private deployment** — hosted, VPC, or on-prem options according to the project scope.
+
+We use an eval-first process: a claim becomes public only when its model card,
+baseline, evaluation method, and limitations can be inspected.
+
+## Public model proof
+
+These are the model repositories currently available for public inspection.
+Private client work and experimental names are not presented as public benchmarks.
+
+| Model | Purpose | Base / method | License |
+|---|---|---|---|
+| [MSC Academy RAG v1](https://huggingface.co/Finish-him/msc-academy-rag-v1) | Educational RAG in Portuguese and English | Qwen2.5-0.5B · SFT/LoRA | Apache-2.0 |
+| [Arquimedes Tutor SFT v1](https://huggingface.co/Finish-him/arquimedes-tutor-sft-v1) | Tutoring and programming in Portuguese | Qwen2.5-0.5B · SFT/LoRA | Apache-2.0 |
+
+## MSC Labs engagement
 
 | | **Pilot** | **Production** |
 |---|---|---|
-| **Price** | $5,000 | $10,000 |
+| **Price** | US$3,900 + inference at cost | US$7,900 + inference at cost |
 | **Timeline** | 2–3 weeks | 4–6 weeks |
-| **You get** | Model + eval report + hosted endpoint | Full repo, weights, runbook, on-prem/VPC deploy |
+| **Scope** | One task, model, and evaluation report | Production hardening, deployment, repo, weights, and runbook |
 
-> Every model below is built on the same pipeline we run for clients.
+Every engagement starts with a baseline and agreed success criteria.
+The audit determines whether fine-tuning is economically and technically justified.
 
-## 🧠 Reference models
+## Open engineering
 
-Open, reproducible demos of small fine-tuned models out-performing frontier APIs on a focused task.
-*Benchmark numbers are illustrative reference results from our standard eval harness.*
-
-| Model | Task | Base | Result vs. frontier baseline |
-|---|---|---|---|
-| [**Atlas**](https://github.com/Msc-Company-Org/atlas) | Knowledge-grounded QA (RAG + tuned) | Qwen2.5-7B | **+12 pts** answer accuracy · 18× cheaper |
-| [**Prometheus**](https://github.com/Msc-Company-Org/prometheus) | Customer-support reply generation | Llama-3.1-8B | **94%** human-pref · 22× cheaper |
-| [**Artemis**](https://github.com/Msc-Company-Org/artemis) | Sales / lead-qualification agent | Mistral-7B | **+19%** qualified-lead rate (offline) |
-| [**Hermes**](https://github.com/Msc-Company-Org/hermes) | Code assistant / dev automation | Qwen2.5-Coder-7B | **+15 pts** pass@1 on internal suite |
-| [**Zeus**](https://github.com/Msc-Company-Org/zeus) | Intent routing / classification | Gemma-2-2B | **99.1%** routing accuracy · 40× cheaper |
-| [**Arquimedes**](https://github.com/Msc-Company-Org/arquimedes) | Structured extraction & reasoning | Qwen2.5-7B | **0.97** field-level F1 on extraction |
-
-## 🛠️ How we work
-- **Eval-first** — benchmark against your real GPT-4/Claude baseline; report numbers before/after.
-- **Open weights, you own them** — Llama · Qwen · Mistral · Gemma. No vendor lock.
-- **2-stage training protocol** — smoke test → full run. Predictable cost, predictable timeline.
-- **Privacy by design** — on-prem / in-VPC option; your data never trains anyone else's model.
+- [MSC MCP Core](https://github.com/Msc-Company-Org/msc-mcp-core) — shared MCP infrastructure.
+- [MSC Workspace OS](https://github.com/Msc-Company-Org/msc-workspace-os) — public workspace and operating-system patterns.
 
 ---
 
 <div align="center">
 
-**Is fine-tuning worth it for your task?** → [Book a free 30-min model audit](https://labs.msccompany.com.br/assessment)
+**Have a focused, high-volume AI task?**
+[Book a free 30-minute model audit](https://labs.msccompany.com.br/assessment)
 
-<sub>MSC Labs · custom LLM fine-tuning · made by the MSC Company team</sub>
+<sub>MSC Company · evidence before claims · software tied to business outcomes</sub>
 
 </div>
