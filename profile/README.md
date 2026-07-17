@@ -28,12 +28,11 @@ baseline, evaluation method, and limitations can be inspected.
 
 ## Public model proof
 
-These are the model repositories currently available for public inspection.
-Private client work and experimental names are not presented as public benchmarks.
+These are the model repositories currently available for public inspection. Public availability does not imply production readiness or a benchmark. The Academy RAG artifact is a generator preview with retrieval and baseline evaluation still pending.
 
 | Model | Purpose | Base / method | License |
 |---|---|---|---|
-| [MSC Academy RAG v1](https://huggingface.co/Finish-him/msc-academy-rag-v1) | Educational RAG in Portuguese and English | Qwen2.5-0.5B · SFT/LoRA | Apache-2.0 |
+| [MSC Academy RAG v1](https://huggingface.co/Finish-him/msc-academy-rag-v1) | RAG generator preview in Portuguese; retrieval/eval pending | Qwen2.5-0.5B · SFT/LoRA | Apache-2.0 |
 | [Arquimedes Tutor SFT v1](https://huggingface.co/Finish-him/arquimedes-tutor-sft-v1) | Tutoring and programming in Portuguese | Qwen2.5-0.5B · SFT/LoRA | Apache-2.0 |
 
 ## MSC Labs engagement
