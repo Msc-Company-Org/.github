@@ -26,14 +26,14 @@ commerce, operations, and customer acquisition.
 We use an eval-first process: a claim becomes public only when its model card,
 baseline, evaluation method, and limitations can be inspected.
 
-## Public model proof
+## Public model artifacts
 
 These are the model repositories currently available for public inspection.
-Private client work and experimental names are not presented as public benchmarks.
+Public availability does not imply production maturity or a benchmark. Private client work and experimental names are not presented as public proof.
 
 | Model | Purpose | Base / method | License |
 |---|---|---|---|
-| [MSC Academy RAG v1](https://huggingface.co/Finish-him/msc-academy-rag-v1) | Educational RAG in Portuguese and English | Qwen2.5-0.5B · SFT/LoRA | Apache-2.0 |
+| [MSC Academy RAG v1](https://huggingface.co/Finish-him/msc-academy-rag-v1) | RAG generator preview in Portuguese; retrieval and reproducible evaluation pending | Qwen2.5-0.5B · SFT/LoRA | Apache-2.0 |
 | [Arquimedes Tutor SFT v1](https://huggingface.co/Finish-him/arquimedes-tutor-sft-v1) | Tutoring and programming in Portuguese | Qwen2.5-0.5B · SFT/LoRA | Apache-2.0 |
 
 ## MSC Labs engagement
