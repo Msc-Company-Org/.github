@@ -24,6 +24,10 @@ Explique objetivo, impacto e como validar. Revisão humana é recomendada, não 
 
 Use o gerenciador e o lockfile declarados pelo app ou pacote que está sendo alterado. O `pnpm` da raiz orquestra apenas os workspaces explicitamente incluídos; apps importados podem manter npm, Bun, Python, Go ou Rust. Não migre ferramentas apenas para uniformizar — faça isso somente quando houver ganho validado e CI equivalente.
 
+## Dependências
+
+Atualize dependências manualmente, um workspace por vez. Regenerar o lockfile correspondente e executar os checks desse app é obrigatório. A organização não usa Dependabot nem PRs automáticas de atualização.
+
 ## Segurança
 
 Nunca versione segredos, `.env` real, dados pessoais, bancos locais ou documentos de cliente sem autorização. Use nomes de variáveis e valores fictícios em `.env.example`.
