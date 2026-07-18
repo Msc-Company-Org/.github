@@ -20,6 +20,10 @@ Abra issue quando o trabalho precisar sobreviver à sessão atual, tiver depend�
 
 Explique objetivo, impacto e como validar. Revisão humana é recomendada, não obrigatória para trabalho individual. CI existente deve passar antes do merge.
 
+## Monorepos heterogêneos
+
+Use o gerenciador e o lockfile declarados pelo app ou pacote que está sendo alterado. O `pnpm` da raiz orquestra apenas os workspaces explicitamente incluídos; apps importados podem manter npm, Bun, Python, Go ou Rust. Não migre ferramentas apenas para uniformizar — faça isso somente quando houver ganho validado e CI equivalente.
+
 ## Segurança
 
 Nunca versione segredos, `.env` real, dados pessoais, bancos locais ou documentos de cliente sem autorização. Use nomes de variáveis e valores fictícios em `.env.example`.

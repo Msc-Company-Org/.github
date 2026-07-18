@@ -8,6 +8,10 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   governance-files:
     runs-on: ubuntu-latest
@@ -16,6 +20,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Validate shared community files
         run: |
+          test -f .editorconfig
           test -f SECURITY.md
           test -f CONTRIBUTING.md
           test -f PULL_REQUEST_TEMPLATE.md
