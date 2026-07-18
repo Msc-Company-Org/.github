@@ -1,29 +1,14 @@
-# Política de Segurança — MSC Consultoria
+# Segurança
 
-## Reportando vulnerabilidades
+Esta política vale para os repositórios da organização `Msc-Company-Org`.
 
-Não abra issues públicas com vulnerabilidades, credenciais ou dados de clientes.
+## Relato de vulnerabilidade
 
-Envie um relatório privado com:
+Não abra issue pública contendo vulnerabilidade, credencial ou dado de cliente. Envie o relato por canal privado ao responsável, incluindo repositório, impacto e passos mínimos para reprodução.
 
-- repositório/produto afetado;
-- descrição do problema;
-- passos para reprodução;
-- impacto potencial;
-- sugestão de mitigação, se houver.
+## Regras básicas
 
-## Escopo
-
-Esta política cobre repositórios e serviços sob a organização `Msc-Consultoriarj-org` e os Spaces/serviços relacionados à `MSC-Company` no Hugging Face.
-
-## Dados e segredos
-
-Nunca commitar:
-
-- `.env` real;
-- tokens GitHub, Hugging Face, Vercel, Supabase ou provedores LLM;
-- bancos locais;
-- dados de clientes;
-- documentos institucionais ou pessoais sem autorização.
-
-Use `.env.example` com valores fictícios.
+- nunca versionar `.env` real, tokens, chaves privadas ou bancos locais;
+- não incluir dados pessoais ou documentos de clientes sem autorização;
+- usar `.env.example` somente com valores fictícios;
+- revogar imediatamente qualquer segredo exposto e depois remover o valor do histórico.

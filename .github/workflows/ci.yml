@@ -1,18 +1,24 @@
-name: ci
+name: CI
 
 on:
   pull_request:
   push:
     branches: [main]
 
+permissions:
+  contents: read
+
 jobs:
   governance-files:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
-      - name: Validate baseline org files
+      - name: Validate shared community files
         run: |
           test -f SECURITY.md
           test -f CONTRIBUTING.md
-          test -f .github/pull_request_template.md
+          test -f PULL_REQUEST_TEMPLATE.md
+          test -f .github/ISSUE_TEMPLATE/bug.yml
+          test -f .github/ISSUE_TEMPLATE/feature.yml
           test -f profile/README.md

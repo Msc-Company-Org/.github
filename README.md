@@ -1,18 +1,14 @@
 # .github
 
-Repositório de perfil e community health files da org `Msc-Company-Org`.
+Padrões leves herdados pelos repositórios da organização `Msc-Company-Org`.
 
 ## Conteúdo
 
-- `profile/README.md` — perfil público da org (MSC Labs)
-- `REPO_MAP.md` — mapa dos repositórios da org, organizado pelas 9 subcategorias do workspace
-- `CODEOWNERS`, `CONTRIBUTING.md`, `SECURITY.md`, `PULL_REQUEST_TEMPLATE.md` — padrões herdados pelos repos da org
-- `.github/ISSUE_TEMPLATE/` e `.github/workflows/` — templates de issue e CI base
+- `profile/README.md` — perfil público da organização;
+- `CONTRIBUTING.md` — fluxo simples de contribuição;
+- `SECURITY.md` — política comum de segurança;
+- `PULL_REQUEST_TEMPLATE.md` — template curto de PR;
+- `.github/ISSUE_TEMPLATE/` — templates de bug e melhoria;
+- `.github/workflows/ci.yml` — validação deste repositório de governança.
 
-## Contexto
-
-Os clones locais dos repos vivem em `workspace/2-Codigo/MSC-Company-Org/` (ver `CLAUDE.md` do workspace). A auditoria completa dos repos está em `AUDITORIA-REPOS-2026-07-01.md` no repo [workspace-meta](https://github.com/Finish-Him/workspace-meta).
-
-## Licença
-
-MIT — ver [LICENSE](./LICENSE).
+Os cinco monorepos canônicos são `msc-academy`, `msc-consultoria`, `recanto-acai`, `msc-labs` e `alexandria`. Os clones locais ficam em `workspace/3-Codigo/MSC-Company/`.

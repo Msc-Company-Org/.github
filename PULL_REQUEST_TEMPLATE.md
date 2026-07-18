@@ -1,34 +1,23 @@
-## Resumo
+## Objetivo
 
-Descreva a alteração e o motivo.
+O que muda e por quê?
 
-## Tipo de mudança
+## Validação
 
-- [ ] Nova funcionalidade (`feat`)
-- [ ] Correção de bug (`fix`)
-- [ ] Refatoração (`refactor`)
-- [ ] Documentação (`docs`)
-- [ ] Manutenção/infra (`chore`)
-- [ ] CI/automação (`ci`)
+Como a alteração foi testada?
 
-## Como testar
+## Impacto
 
-Descreva os passos para validar a mudança localmente ou em staging.
-
-```
-1.
-2.
-3.
-```
+- [ ] mudança interna
+- [ ] interface ou comportamento visível
+- [ ] banco, infraestrutura ou deploy
 
 ## Checklist
 
-- [ ] CI passou (build, lint, testes)
-- [ ] Não inclui `.env`, tokens ou dados sensíveis
-- [ ] README/docs atualizados quando necessário
-- [ ] Mudança compatível com `main` (sem breaking changes não documentados)
-- [ ] PR referencia a issue correspondente (`Ref #N` ou `Closes #N`)
+- [ ] CI/checks existentes passaram
+- [ ] não inclui segredos ou dados sensíveis
+- [ ] documentação foi atualizada quando necessário
 
 ## Evidências
 
-Cole prints, logs ou links de deploy quando útil.
+Screenshots, logs ou links quando forem úteis.
